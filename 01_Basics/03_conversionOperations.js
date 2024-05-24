@@ -99,6 +99,72 @@ let booleanEmptyStringVal = Boolean(emptyStringVal)
 
 let stringVal = "Aditya"
 let booleanStringVal = Boolean(stringVal)
-console.log(booleanStringVal)
+// console.log(booleanStringVal)
 
 
+
+// *********************************** OPERATIONS  ***********************************
+
+let value = 3
+let negValue = -value
+// console.log(negValue) // negative of value
+
+// ___________________________________________________________________________
+
+// Arithmetic Operations
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**3)
+// console.log(2/2)
+// console.log(2%2)
+
+// ___________________________________________________________________________
+
+// String Concatenation
+str1 = "hello"
+str2  = " ady"
+str3 = str1 + str2
+// console.log(str3)
+
+// ___________________________________________________________________________
+
+// console.log("1" + 2)
+// console.log(1 + "2")
+// console.log("1" + "2")
+// console.log("1" + 2 + 2)
+// console.log(1 + 2 + "2")
+
+// ___________________________________________________________________________
+
+// console.log(+true) // 1
+// console.log(+"") // 0
+
+// ___________________________________________________________________________
+
+let num1, num2, num3
+num1 = num2 = num3 = 2+2
+// console.log(num2)
+
+// ___________________________________________________________________________
+
+// Increment Operator
+let gameCounter1 = 100;
+++gameCounter1; // Prefix Increment
+// console.log(gameCounter1)
+
+
+let gameCounter2 = 100;
+gameCounter2++; // Postfix Increment
+// console.log(gameCounter2)
+
+
+
+// Understanding how they work
+ 
+let x = 0;
+const y = x++;
+console.log(x, y)
+
+// In Prefix Increment, value of x increment first and then stored in y. So value of x = 1 and y =  1.
+// In Postfix Increment, value of x returns to y first and then value of x increments, which results in y = 0 and x = 1.
