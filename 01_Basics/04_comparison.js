@@ -23,5 +23,5 @@
 
 // Strict Equality 
 
-console.log("2" === 2) // true // it also checks for data type
+console.log("2" === 2) // false // it also checks for data type
 console.log(2 === 2) // true

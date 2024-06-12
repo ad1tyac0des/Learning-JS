@@ -99,7 +99,7 @@ let booleanEmptyStringVal = Boolean(emptyStringVal)
 
 let stringVal = "Aditya"
 let booleanStringVal = Boolean(stringVal)
-// console.log(booleanStringVal)
+// console.log(booleanStringVal) //true
 
 
 
