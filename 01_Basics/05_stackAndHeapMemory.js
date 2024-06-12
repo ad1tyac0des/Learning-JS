@@ -9,7 +9,7 @@ Heap --> Non-Primitive
 // STACK
 let x = 1;
 let y = x;
-y = 2;
+y = 2; // when we changed value of y, the value of x doesn't changes. This is Primitive.
 console.log(x) 
 console.log(y)  
 
@@ -21,7 +21,7 @@ let userOne = {
 }
 
 let userTwo = userOne
-userTwo.email = "abc@google.com"
+userTwo.email = "abc@google.com" //When val of userTwo is changed, automatically val of userOne changes. This is Non-Primitive.
 
 console.log(userOne)
 console.log(userTwo)
